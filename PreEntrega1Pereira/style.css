@@ -1,0 +1,111 @@
+* {
+  Margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/* .imagenFondo{
+  background-repeat: no-repeat;
+  opacity: 0.5;
+} */
+html {
+  overflow-y: hidden;
+}
+
+.subrayado {
+  text-decoration: none;
+}
+
+.tituloPrincipal {
+  background-color: #dd0cf8;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.barraNavegación {
+  text-align: center;
+  list-style-type: none;
+  font-size: 2rem;
+  margin-top: 15px;
+}
+
+.barraNavegación li {
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+
+.barraNavegación li a {
+  margin-top: auto;
+  padding: 2px 7px 2px 7px;
+  color: #666;
+  background-color: #eeeeee;
+  border: 1px solid #ccc;
+  text-decoration: none;
+}
+
+.barraNavegación li a:hover {
+  background-color: #dd0cf8;
+  color: #ffffff;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+  height: 50px;
+  /* line-height:50px; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.container {
+  width: 95%;
+  max-width: 900px;
+  padding: 32px 64px;
+  margin: auto;
+}
+
+.social {
+  width: 48px;
+  position: fixed;
+  top: 50px;
+  right: 0;
+}
+
+.social {
+  top: 50%;
+  height: 205px;
+  margin-top: -100px;
+}
+
+.tituloColores {
+  text-align: center;
+}
+
+/* esta clase es para la imagen principal de cada pág */
+.contenido {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  height: 400px;
+  width: 800px;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+}
+
+.padding10 {
+  padding-left: 50px;
+}
+
+.contact_form {
+  text-align: center;
+  margin-top: 50px;
+}
